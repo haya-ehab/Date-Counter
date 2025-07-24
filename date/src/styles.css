@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin: 0 0.4rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+span {
+  margin: 0 0.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
